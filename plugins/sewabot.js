@@ -16,7 +16,7 @@ let handler = async (m, { conn }) => {
 
 *Owner ${conn.user.name}*
 `,
-  buttonText: 'Harga Sesuai Pasaran',
+  buttonText: '𝑯𝒂𝒓𝒈𝒂 𝑴𝒖𝒓𝒂𝒉 𝒌𝒐𝒌',
   listType: 2,
   productListInfo: {
   productSections: [{
