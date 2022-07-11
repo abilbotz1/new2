@@ -38,7 +38,7 @@ const defaultMenu = {
   before: `
 ╔════════════════╗
 ╠➤👤𝙊𝙬𝙣𝙚𝙧 : ${global.ownername}
-╠➤💻𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : RielOffcial
+╠➤💻𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : Farhanstore-botz oFc
 ╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
 ╠➤🗓️𝙏𝙖𝙣𝙜𝙜𝙖𝙡: %date
 ╚═══════╦════════╝
@@ -158,7 +158,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
-    conn.sendHydrated(m.chat, text.trim(), 'Rielgans', null, 'https://chat.whatsapp.com/JqzZbqyCvBa6tXzLH1P3hZ', 'GROUP SUPPORT', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Farhangans', null, 'https://chat.whatsapp.com/CU0NIekiHQzCm5H2qUP1Lx', 'GROUP SUPPORT', '', '', [
       ['𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓𝐙🤖', '/donasi'],
       ['𝐉𝐀𝐒𝐀 𝐑𝐔𝐍?📫', '/sewa'],
       ['!𝗢𝗪𝗡𝗘𝗥!🐤', '/owner']
